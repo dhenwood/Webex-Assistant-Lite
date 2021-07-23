@@ -2,7 +2,6 @@ privateKeyLocation = "id_rsa"
 
 
 def logic(textQuery) -> str:
-    textResponse = ""
     if "Mars" in textQuery:
         textResponse = "Mars is 379 million kilometers away"
     elif "Jupiter" in textQuery:
