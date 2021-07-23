@@ -7,7 +7,7 @@ A public/private key needs to be created.
 
 Generate Public/Private keys (MacOS/Linux)
 ```sh
-$ ssh-keygen -t rsa
+$ ssh-keygen -m PEM -t rsa -b 4096
 ```
 
 Login to the [Webex Assistant Admin portal](https://skills-admin.intelligence.webex.com/admin) and "Register a new Skill". The "Public Key" field is populated with the contents of the public key just created (ensure you include the _ssh-rsa_ at the start). Also ensure your target URL address finshes with /parse (ie, https://mywebserver.com/parse).
