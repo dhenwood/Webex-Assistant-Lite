@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 # Webex Assistant Lite
-The Webex Assistant Lite is a cut down version of the [Mindmeld Webex Assistant](https://github.com/cisco/webex-assistant-sdk). The intent of this is to simplify performing demonstrations of the Webex Assistant capability on Webex devices. Whilst the Mindmeld solution provides a highly scalable solution, it does require significant setup (docker containers, etc).
+The Webex Assistant Lite is a cut down version of the [Mindmeld Webex Assistant](https://github.com/cisco/webex-assistant-sdk). The intent of this is to simplify performing demonstrations of the Webex Assistant capability on Webex devices. Whilst the Mindmeld solution provides a highly scalable solution, it does require [significant setup](https://skills-admin.intelligence.webex.com/walkthrough).
 
 ## Setup
 A public/private key needs to be created. 
