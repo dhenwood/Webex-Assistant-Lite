@@ -17,3 +17,10 @@ $ export FLASK_APP=server
 $ export FLASK_ENV=development
 $ flask run -h 192.168.0.100 -p 7171
 ```
+
+## Result
+Webex Assistant Query
+![Webex Assistant Query](https://github.com/dhenwood/Webex-Assistant-Lite/blob/main/webexAssistantQuery.png)
+
+Webex Assistant Response
+![Webex Assistant Response](https://github.com/dhenwood/Webex-Assistant-Lite/blob/main/webexAssitantResponse.png)
