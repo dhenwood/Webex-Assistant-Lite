@@ -146,3 +146,13 @@ def body(timezone, language, time, locale, supportedDirectives, orgId, deviceId,
 
     return msg
 
+
+def healthCheck(challenge) -> str:
+    msg = {
+        "status":"up",
+        "api_version":"1.0",
+        "challenge":challenge,
+        "validated":True
+    }
+
+    return msg
