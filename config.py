@@ -1,4 +1,4 @@
-privateKeyLocation = "id_rsa"
+privateKeyLocation = "./id_rsa"
 
 
 def logic(textQuery) -> str:
