@@ -30,6 +30,7 @@ def parse():
     return body
 
 
+@server.route('/parse', methods=['GET'])
 def health_check():
     encrypted_challenge: str = request.args.get('challenge')
     decryptMsg = decrypt(encrypted_challenge)
