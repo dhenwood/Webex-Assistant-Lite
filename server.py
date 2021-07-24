@@ -4,7 +4,7 @@ import flask
 import calendar, time
 
 from config import logic
-from constructJson import body
+from constructJson import body, healthCheck
 from crypto import decrypt
 from flask import Flask, jsonify, request
 
@@ -28,6 +28,13 @@ def parse():
 
     body = constructResponse(textQuery, orgId, userId, supportedDirectives, deviceId, timezone, timestamp, language, locale, challenge)
     return body
+
+
+def health_check():
+    encrypted_challenge: str = request.args.get('challenge')
+    decryptMsg = decrypt(encrypted_challenge)
+    msg = healthCheck(decryptMsg)
+    return msg
 
 
 def constructResponse(textQuery, orgId, userId, supportedDirectives, deviceId, timezone, timestamp, language, locale, challenge) -> str:
