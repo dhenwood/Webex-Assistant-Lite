@@ -10,7 +10,7 @@ $ ssh-keygen -m PEM -t rsa -b 4096
 
 From your browser;
 * Login to the [Webex Assistant Admin portal](https://skills-admin.intelligence.webex.com/admin)
-* Select "Register a new Skill" (top right)
+* Select "Register a new Skill" (in the top right of the Admin page)
 * Specify the Name you wish to use as the main voice trigger
 * Optionally, you can set numerious synonyms or other words that will trigger the skill
 * Set Language to “English”
