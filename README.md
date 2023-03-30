@@ -5,7 +5,9 @@ The Webex Assistant Lite is a cut down version of the [Mindmeld Webex Assistant]
 ## Setup
 Generate a Public/Private key pair (MacOS/Linux)
 ```sh
-$ ssh-keygen -m PEM -t rsa -b 4096
+//$ ssh-keygen -m PEM -t rsa -b 4096
+openssl genrsa -des3 -out private.pem 2048
+openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 ```
 
 From your browser;
